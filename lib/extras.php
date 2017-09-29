@@ -425,7 +425,7 @@ function redirect_short_url() {
 			'meta_query'          => array(
 				array(
 					'key'     => 'valu_shorturl',
-					'value'   => $shorturl,
+					'value'   => sanitize_text_field( $shorturl ),
 					'compare' => '=',
 				),
 			),
