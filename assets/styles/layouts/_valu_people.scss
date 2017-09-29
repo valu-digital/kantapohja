@@ -1,0 +1,57 @@
+
+.post-type-archive-valu_people {
+  div.wrap {
+	article {
+	  border-bottom: 0;
+	}
+  }
+}
+
+.valu_people_facets {
+  margin-left: 15px;
+}
+
+.valu_people-archive {
+  padding-left: 0;
+  @extend .clearfix;
+  article {
+	&:nth-child(4n+1) {
+	  clear: left;
+	}
+	.entry-content {
+	  @include hyphens;
+	  a {
+		text-decoration: none;
+	  }
+	  span {
+		display: block;
+	  }
+	  .additional_content {
+		display: none;
+		padding-top: 5px;
+	  }
+	  .btn {
+		padding-left: 0;
+	  }
+	  .btn:active {
+		box-shadow: none;
+	  }
+	  .show_person {
+		white-space: normal;
+	  }
+	}
+  }
+}
+
+.shadow-box {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.13);
+  padding: 20px;
+  /*margin-bottom: 20px;*/
+}
+
+.single-valu_people {
+  @media (min-width: $screen-md) {
+	main#content {
+	}
+  }
+}

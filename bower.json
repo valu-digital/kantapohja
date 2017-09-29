@@ -1,0 +1,71 @@
+{
+  "name": "sage",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    "Ben Word <ben@benword.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "3.3.6",
+    "svg-injector": "^1.1.3",
+    "retina.js": "^1.3.0",
+    "font-awesome": "^4.5.0",
+    "matchHeight": "^0.7.0",
+    "masonry": "^4.1.1",
+    "imagesloaded": "^4.1.1",
+    "jquery-bridget": "^2.0.1",
+    "js-cookie": "^2.1.3",
+    "select2": "^4.0.3",
+    "slick-carousel": "^1.6.0",
+    "magnific-popup": "^1.1.0",
+    "bootstrap-tabcollapse": "^0.2.7",
+    "isotope": "^3.0.4"
+  },
+  "overrides": {
+    "jquery.mb.ytplayer": {
+      "main": "./dist/jquery.mb.YTPlayer.min.js"
+    },
+    "retina.js": {
+      "main": "./dist/retina.min.js"
+    },
+    "masonry": {
+      "main": [
+        "./dist/masonry.pkgd.js"
+      ],
+      "dependencies": {}
+    },
+    "isotope": {
+      "main": "dist/isotope.pkgd.min.js",
+      "dependencies": {}
+    },
+    "font-awesome": {
+      "main": [
+        "./scss/font-awesome.scss",
+        "./fonts/*"
+      ]
+    },
+    "bootstrap-sass": {
+      "main": [
+        "./assets/stylesheets/_bootstrap.scss",
+        "./assets/javascripts/bootstrap/transition.js",
+        "./assets/javascripts/bootstrap/alert.js",
+        "./assets/javascripts/bootstrap/button.js",
+        "./assets/javascripts/bootstrap/carousel.js",
+        "./assets/javascripts/bootstrap/collapse.js",
+        "./assets/javascripts/bootstrap/dropdown.js",
+        "./assets/javascripts/bootstrap/modal.js",
+        "./assets/javascripts/bootstrap/tooltip.js",
+        "./assets/javascripts/bootstrap/popover.js",
+        "./assets/javascripts/bootstrap/scrollspy.js",
+        "./assets/javascripts/bootstrap/tab.js",
+        "./assets/javascripts/bootstrap/affix.js",
+        "./assets/fonts/bootstrap/glyphicons-halflings-regular.eot",
+        "./assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
+        "./assets/fonts/bootstrap/glyphicons-halflings-regular.ttf",
+        "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
+        "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
+      ]
+    }
+  }
+}

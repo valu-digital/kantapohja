@@ -1,0 +1,132 @@
+
+.sidebar {
+  padding-bottom: 15px;
+  @media (min-width: $screen-md) {
+	padding-bottom: 25px;
+  }
+}
+
+.sidebar-right .sidebar {
+  @media (min-width: $screen-md) {
+	padding-left: 25px;
+  }
+}
+
+.sidebar-right {
+  margin-bottom: 25px;
+  @media (min-width: $screen-md) {
+	margin-bottom: 0;
+  }
+}
+
+.sidebar.sidebar-secondary {
+  padding-left: 15px;
+}
+
+.sidebar-content {
+  @media (min-width: $screen-md) {
+	padding: 0 15px;
+  }
+  .widget-recent {
+	.sidebar-news {
+	  .news-row {
+		border-bottom: 1px solid $lg1;
+		padding: 15px 0;
+		color: $d1;
+		margin: 0;
+		.date {
+		  font-size: 0.667em;
+		  padding-left: 0;
+		}
+		.content {
+		  font-size: 14px;
+		  padding-left: 0;
+		  & a:hover {
+			  color: #399df1;
+			  text-decoration: none;
+		  }
+		}
+	  }
+	  .more-posts {
+		margin: 15px 0;
+		@media (min-width: $screen-md) {
+		  margin: 25px 0;
+		}
+	  }
+	}
+  }
+  .widget.banner-lift {
+	.sidebar-banner-lift {
+	  height: 163px;
+	  a {
+		display: block;
+	  }
+	  a:hover {
+		text-decoration: none !important;
+	  }
+	  .overlay {
+		background-color: rgba(84, 97, 110, 0.6);
+		width: 100%;
+		height: 163px;
+		text-align: center;
+		.sidebar-banner-content {
+		  h2.banner-lift-title {
+			font-size: 1.375em;
+			color: $f;
+			font-weight: 700;
+			font-style: italic;
+			padding: 0 15px;
+		  }
+		}
+	  }
+	}
+  }
+  .widget.sidebar-shortcut-links,
+  .widget.widget-attachments {
+	color: $brand-primary;
+	font-size: 0.889em;
+	.link-container {
+	  padding-left: 15px;
+	}
+	a {
+	  line-height: 2;
+	  color: $brand-primary;
+	  margin-left: 10px;
+	  &:hover {
+		color: $g3;
+	  }
+	}
+	.fa {
+	  margin-left: -15px;
+	  color: $brand-primary;
+	}
+  }
+  .widget.sidebar-facebook-feed {
+	height: 600px;
+  }
+  .widget.person-lifts-layout {
+	.person-card {
+	  float: none;
+	  display: block;
+	  width: 100%;
+	  margin: 0 0 15px;
+	  padding: 0;
+	  .entry-content {
+		width: 100%;
+		p {
+		  margin: 0;
+		  &.person-name {
+			font-weight: 700;
+		  }
+		}
+	  }
+	}
+  }
+}
+
+.sidebar-secondary {
+  padding: 15px 0;
+  @media (min-width: $screen-md) {
+	padding: 25px 0;
+  }
+}

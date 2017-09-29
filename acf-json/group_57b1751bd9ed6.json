@@ -1,0 +1,453 @@
+{
+    "key": "group_57b1751bd9ed6",
+    "title": "Etusivun nostot",
+    "fields": [
+        {
+            "key": "field_57b1751bdf38c",
+            "label": "Etusivun nostot",
+            "name": "editor_content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "button_label": "Lisää osio",
+            "min": "",
+            "max": "",
+            "layouts": [
+                {
+                    "key": "58e5e2ac82b46",
+                    "name": "imagecolumnlift",
+                    "label": "Kuva- ja tekstikappalenosto",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_58e5e2c082b47",
+                            "label": "Päivämäärä",
+                            "name": "imagecolumnlift_date",
+                            "type": "date_picker",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "display_format": "d.m.Y",
+                            "return_format": "d.m.Y",
+                            "first_day": 1
+                        },
+                        {
+                            "key": "field_58e5e2eb82b48",
+                            "label": "Otsikko",
+                            "name": "imagecolumnlift_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58e5e33482b49",
+                            "label": "Sisältöteksti",
+                            "name": "imagecolumnlift_content",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "visual",
+                            "toolbar": "basic",
+                            "media_upload": 0,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_58e5e34f82b4a",
+                            "label": "Kuva",
+                            "name": "imagecolumnlift_image",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "id",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_58e5e36882b4b",
+                            "label": "Kuvan sijainti",
+                            "name": "imagecolumnlift_imagelocation",
+                            "type": "radio",
+                            "instructions": "Kuvan sijainti vasemmalla tai oikealla",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "left": "Vasen",
+                                "right": "Oikea"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "save_other_choice": 0,
+                            "default_value": "",
+                            "layout": "vertical",
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_58e5e38782b4c",
+                            "label": "Kuvan päälle tuleva nostoteksti",
+                            "name": "overlaytext",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58e5e39682b4d",
+                            "label": "Linkkipainikkeen teksti",
+                            "name": "button_text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58e5e39f82b4e",
+                            "label": "Linkkipainikkeen linkki",
+                            "name": "button_url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "583e939df8d49",
+                    "name": "events_lift",
+                    "label": "Tulevat tapahtumat",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_583eab78c1743",
+                            "label": "Otsikko",
+                            "name": "main_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_585bac4fde5e4",
+                            "label": "Tapahtumaosion taustakuva",
+                            "name": "events_background_image",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "id",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "584fa17cb0466",
+                    "name": "newslift",
+                    "label": "Ajankohtaista-osio",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_584fad1470d3f",
+                            "label": "Uutisten määrä sivulla",
+                            "name": "newslift_newsnumber",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": 4,
+                            "min": 1,
+                            "max": 10,
+                            "step": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "585bc0ad26ae7",
+                    "name": "some_lift",
+                    "label": "Sosiaalinen media",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_585ce06578cbb",
+                            "label": "Otsikko",
+                            "name": "main_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "585cd9a05d885",
+                    "name": "imagelifts",
+                    "label": "Kuvalliset nostot",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_585cdb545d886",
+                            "label": "Kuvallinen nosto",
+                            "name": "imagelift_repeater",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 3,
+                            "max": 3,
+                            "layout": "table",
+                            "button_label": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_585cdcae5d887",
+                                    "label": "Noston otsikko",
+                                    "name": "lift_title",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": ""
+                                },
+                                {
+                                    "key": "field_585cdcc25d888",
+                                    "label": "Noston osoite",
+                                    "name": "lift_url",
+                                    "type": "url",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": ""
+                                },
+                                {
+                                    "key": "field_585cdccf5d889",
+                                    "label": "Noston taustakuva",
+                                    "name": "lift_image",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "id",
+                                    "preview_size": "medium",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": ""
+                                },
+                                {
+                                    "key": "field_5901d7fd16f3f",
+                                    "label": "Painikkeen nimi",
+                                    "name": "lift_button_name",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "7"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "81"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "81"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "81"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1493294933
+}

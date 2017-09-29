@@ -1,0 +1,129 @@
+
+$frontpagebannerheightmobile: 450px;
+$frontpagebannerheight: 702px;
+
+.front-page-banner {
+  height: $frontpagebannerheightmobile;
+  background-size: cover;
+  background-position: center;
+  @media (min-width: $screen-md) {
+	margin-top: 146px;
+	background-attachment: fixed;
+	height: $frontpagebannerheight;
+  }
+  @media (max-width: $screen-md-max) and (orientation: landscape) {
+	background-attachment: scroll;
+  }
+  // IE
+  @supports (-ms-accelerator:true) {
+	background-attachment: scroll;
+  }
+  .bgcolor {
+	height: $frontpagebannerheightmobile;
+	/* OLD Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.5+0,0+80 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+20,000000+80&0.5+20,0+80 */
+	background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0) 80%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0) 80%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0) 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+	@media (min-width: $screen-md) {
+	  height: $frontpagebannerheight;
+	}
+	.banner-container {
+	  height: $frontpagebannerheightmobile;
+	  @media (min-width: $screen-md) {
+		height: $frontpagebannerheight;
+	  }
+	  .banner-col {
+		padding-left: 30px;
+	  }
+	  h1.banner {
+		color: $f;
+		text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+		margin: 0 0 20px;
+		padding: 0;
+		line-height: 40px;
+		font-size: 34px;
+		font-weight: 700;
+		@media (min-width: $screen-sm) {
+		  font-size: 2.5em;
+		  line-height: 60px;
+		}
+		@media (min-width: $screen-md) {
+		  font-size: 60px;
+		  margin: 0 0 40px;
+		}
+	  }
+	  p {
+		color: $f;
+		font-size: 16px;
+		line-height: 31px;
+		margin-bottom: 25px;
+		@media (min-width: $screen-md) {
+			font-size: 22px;
+		}
+	  }
+	}
+  }
+}
+
+.home .wrap {
+  @media (min-width: $screen-md) {
+	//margin-top: $headerh;
+  }
+}
+
+.popular-pages-lift-container {
+  position: relative;
+  z-index: 100;
+  .popular-pages-lift {
+	background-color: #f37779;
+	color: $f;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 100;
+	padding: 0 15px;
+	width: 100%;
+	font-weight: 700;
+	@media (min-width: $screen-md) {
+	  width: 360px;
+	}
+	h3.popular-pages-header {
+	  color: $f;
+	  margin: 0;
+	  padding: 0;
+	  float: left;
+	  font-size: 16px;
+	  text-transform: uppercase;
+	  font-weight: 600;
+	  line-height: 55px;
+	}
+	.pp-open-close {
+	  float: right;
+	  display: none;
+	  line-height: 55px;
+	}
+	.pp-open-close.active {
+	  display: block;
+	}
+	.popular-pages-content {
+	  display: none;
+	  margin: 10px 0 0;
+	  a:hover {
+		color: $brand-primary;
+	  }
+	  ul.most-popular {
+		li {
+		  padding: 5px 0;
+		  a {
+			color: $d1;
+			font-size: 1em;
+			line-height: inherit;
+		  }
+		}
+	  }
+	}
+  }
+}

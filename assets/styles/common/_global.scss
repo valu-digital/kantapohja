@@ -1,0 +1,66 @@
+
+.tk-loading {
+  visibility: hidden;
+}
+
+body.logged-in {
+  top: 32px;
+}
+
+.container-fluid {
+  max-width: 1430px;
+}
+
+.container-fluid-small {
+  max-width: 1230px;
+}
+
+.container-fluid-large {
+  max-width: 1640px;
+}
+
+.container-fluid-full {
+  max-width: 100%;
+}
+
+.vertical {
+  @include vertical-align;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mobile-device * {
+  background-attachment: scroll !important;
+}
+
+span.date {
+  background-color: $brand-secondary;
+  color: $d1;
+  font-size: 0.889em;
+  line-height: 1.625;
+  padding: 5px 10px;
+}
+
+.thumbnail, .wp-caption {
+  border: 0;
+  position: relative;
+  padding: 0;
+  max-width: 100%;
+  .wp-caption-text {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(84, 97, 110, 0.9);
+	font-size: 0.895em;
+	color: $f;
+	line-height: 34px;
+	padding: 0 0 0 10px;
+  }
+}
+
+.aligncenter {
+  clear: both;
+}

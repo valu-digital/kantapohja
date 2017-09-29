@@ -1,0 +1,592 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kuhmo\n"
+"POT-Creation-Date: 2017-09-29 15:47+0200\n"
+"PO-Revision-Date: 2017-09-29 15:47+0200\n"
+"Last-Translator: Mikko Virenius <mikko.virenius@valu.fi>\n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:2
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Valitettavasti hakemaasi sivua ei löytynyt."
+
+#: archive.php:10 category.php:11 home.php:10 index.php:5 search.php:7
+msgid "Sorry, no results were found."
+msgstr "Pahoittelut, hakusi ei tuottanut tuloksia."
+
+#: base-front-page.php:13 base-single.php:13
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your\n"
+"\tbrowser</a> to improve your experience."
+msgstr ""
+"Käytät <strong>vanhentunutta</strong> selainta. Ole ystävällinen ja <a "
+"href=”http://browsehappy.com/”>päivitä selaimesi</a> parantaaksesi "
+"kokemustasi."
+
+#: base-page.php:14 base-template-service.php:14 base.php:14
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade\n"
+"\tyour\n"
+"\tbrowser</a> to improve your experience."
+msgstr ""
+"Käytät <strong>vanhentunutta</strong> selainta. Ole ystävällinen ja <a "
+"href=”http://browsehappy.com/”>päivitä selaimesi</a> parantaaksesi "
+"kokemustasi."
+
+#: functions.php:25
+#, php-format
+msgid "Error locating %s for inclusion"
+msgstr "Tapahtui virhe kutsuttaessa %s"
+
+#: lib/dependencies.php:30
+msgid "Install required dependencies: ACF, Polylang and Maxmegamenu"
+msgstr "Asenna vaaditut riippuvuudet: ACF, Polylang ja Maxmegamenu."
+
+#: lib/extras.php:106 lib/extras.php:107
+msgid "Theme Settings"
+msgstr "Teeman asetukset"
+
+#: lib/extras.php:185
+msgid "First"
+msgstr "Ensimmäinen"
+
+#: lib/extras.php:194 lib/extras.php:363
+msgid "Previous"
+msgstr "Edellinen"
+
+#: lib/extras.php:209 lib/extras.php:388
+msgid "Next"
+msgstr "Seuraava"
+
+#: lib/extras.php:218
+msgid "Last"
+msgstr "Viimeinen"
+
+#: lib/extras.php:338
+msgid "Search "
+msgstr "Hae "
+
+#: lib/setup.php:32
+msgid "Top Navigation"
+msgstr "Ylävalikko"
+
+#: lib/setup.php:33
+msgid "Primary Navigation"
+msgstr "Päävalikko"
+
+#: lib/setup.php:34
+msgid "Footer Navigation"
+msgstr "Alatunnisteen navigointi"
+
+#: lib/setup.php:35
+msgid "Target groups"
+msgstr "Kohderyhmät"
+
+#: lib/setup.php:83
+msgid "Thumbnail"
+msgstr "Pienoiskuva"
+
+#: lib/setup.php:84
+msgid "Medium"
+msgstr "Keskitasoinen"
+
+#: lib/setup.php:85
+msgid "Large"
+msgstr "Iso"
+
+#: lib/setup.php:86
+msgid "Gallery"
+msgstr "Galleria"
+
+#: lib/setup.php:87
+msgid "Banner image"
+msgstr "Bannerin kuva"
+
+#: lib/setup.php:100
+#, php-format
+msgid "Footer %d"
+msgstr "Alapalkki %d"
+
+#: lib/taxonomies.php:13
+msgctxt "Taxonomy General Name"
+msgid "Services"
+msgstr "Palvelut"
+
+#: lib/taxonomies.php:14
+msgctxt "Taxonomy Singular Name"
+msgid "Service"
+msgstr "Palvelu"
+
+#: lib/taxonomies.php:15
+msgid "Services"
+msgstr "Palvelut"
+
+#: lib/taxonomies.php:16
+msgid "All Services"
+msgstr "Kaikki palvelut"
+
+#: lib/taxonomies.php:17
+msgid "Parent Service"
+msgstr "Pääpalvelu"
+
+#: lib/taxonomies.php:18
+msgid "Parent Service:"
+msgstr "Pääpalvelu:"
+
+#: lib/taxonomies.php:19
+msgid "New Service Name"
+msgstr "Uuden palvelun nimi"
+
+#: lib/taxonomies.php:20
+msgid "Add Service Item"
+msgstr "Lisää palvelu"
+
+#: lib/taxonomies.php:21
+msgid "Edit Service"
+msgstr "Muokkaa palvelua"
+
+#: lib/taxonomies.php:22
+msgid "Update Service"
+msgstr "Päivitä palvelu"
+
+#: lib/taxonomies.php:23
+msgid "View Service"
+msgstr "Näytä palvelu"
+
+#: lib/taxonomies.php:24
+msgid "Separate service areas with commas"
+msgstr "Eroita palvelualueet pilkulla"
+
+#: lib/taxonomies.php:25
+msgid "Add or remove service areas"
+msgstr "Lisää tai poista palvelualueita"
+
+#: lib/taxonomies.php:26
+msgid "Choose from the most used"
+msgstr "Valitse käytetyimmistä"
+
+#: lib/taxonomies.php:27
+msgid "Popular Services"
+msgstr "Suositut palvelut"
+
+#: lib/taxonomies.php:28
+msgid "Search Services"
+msgstr "Etsi palveluista"
+
+#: lib/taxonomies.php:29 lib/titles.php:24
+msgid "Not Found"
+msgstr "Sivua ei löytynyt"
+
+#: lib/titles.php:17
+msgid "Latest Posts"
+msgstr "Uusimmat kirjoitukset"
+
+#: lib/titles.php:22
+#, php-format
+msgid "Search Results for %s"
+msgstr "Hakutulokset haulle %s"
+
+#: lib/wp-bootstrap-sidebar-walker.php:90
+#, php-format
+msgid "#%d (no title)"
+msgstr ""
+
+#: partials/banner-front-page.php:35 templates/footer.php:31
+msgid "Most popular pages"
+msgstr "Suosituimmat sivut"
+
+#: partials/content-service-lift.php:13 partials/lift-three-column.php:18
+msgid "Read more"
+msgstr "Lue lisää"
+
+#: partials/lift-events.php:61
+msgid "All events"
+msgstr "Kaikki tapahtumat"
+
+#: partials/lift-news.php:12
+msgid "Press releases"
+msgstr "Tiedotteet"
+
+#: partials/lift-news.php:49 partials/lift-news.php:86
+#: partials/lift-news.php:138
+msgid "See all"
+msgstr "Katso kaikki"
+
+#: partials/lift-news.php:59
+msgid "Bulletin board"
+msgstr "Ilmoitustaulu"
+
+#: partials/lift-news.php:98
+msgid "Vacancies"
+msgstr "Avoimet työpaikat"
+
+#: partials/lift-news.php:128
+#, fuzzy, php-format
+msgid "Posted %s"
+msgstr "Julkaistu %s"
+
+#: partials/sidebar-recent.php:57
+msgid "News"
+msgstr "Ajankohtaista"
+
+#: partials/sidebar-recent.php:80
+msgid "More articles"
+msgstr "Lisää ajankohtaisia"
+
+#: partials/sidebar-recent.php:82
+msgid "Back to the list of articles"
+msgstr "Takaisin ajankohtaislistaukseen"
+
+#: searchform.php:2
+msgid "Search for:"
+msgstr "Hae:"
+
+#: searchform.php:4
+msgid "Search site"
+msgstr "Hae sivuilta"
+
+#: templates/comments.php:9
+#, php-format
+msgctxt "comments title"
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/comments.php:19
+msgid "&larr; Older comments"
+msgstr "&larr; Vanhemmat kommentit"
+
+#: templates/comments.php:22
+msgid "Newer comments &rarr;"
+msgstr "Uudemmat kommentit &rarr;"
+
+#: templates/comments.php:31
+msgid "Comments are closed."
+msgstr "Kommentointi on suljettu."
+
+#: templates/content-page.php:23 templates/content-single.php:23
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: templates/content-single-event.php:21
+msgid "Back to the listing"
+msgstr "Takaisin listaukseen"
+
+#: templates/content-single-event.php:27
+msgid "Event time"
+msgstr "Tapahtuma-aika"
+
+#: templates/content-single-event.php:35
+msgid "Event address"
+msgstr "Tapahtuman osoite"
+
+#: templates/content-single-event.php:43
+msgid "Event contact person"
+msgstr "Tapahtuman yhteyshenkilö"
+
+#: templates/content-single-event.php:49
+msgid "Event information"
+msgstr "Tapahtuman tiedot"
+
+#: templates/content-single-valu_people.php:38
+#: templates/content-single-valu_people.php:44
+#: templates/content-valu_people.php:29 templates/content-valu_people.php:33
+msgid "Tel "
+msgstr "Puh. "
+
+#: templates/content-single-valu_people.php:53
+#: templates/content-valu_people.php:53 templates/sidebar.php:30
+msgid "Unit"
+msgstr "Yksikkö"
+
+#: templates/content-single-valu_people.php:60
+msgid "Responsibilities"
+msgstr "Vastuualueet"
+
+#: templates/content-single-valu_people.php:74
+#: templates/content-valu_people.php:60
+msgid "Office"
+msgstr "Toimipiste"
+
+#: templates/content-valu_people.php:47
+msgid "Show all information"
+msgstr "Näytä kaikki tiedot"
+
+#: templates/header.php:7
+msgid "Skip to content"
+msgstr "Hyppää sisältöön"
+
+#: templates/sidebar-page.php:22
+msgid "Attachments"
+msgstr "Liitteet"
+
+#: templates/sidebar-page.php:42 templates/sidebar-page.php:83
+msgid "Contact us"
+msgstr "Ota yhteyttä"
+
+#: templates/sidebar-page.php:141
+msgid "Facebook"
+msgstr "Facebook"
+
+#: templates/sidebar.php:26
+msgid "Search"
+msgstr "Etsi"
+
+#: dist/scripts/main.js:5 dist/scripts/main.js:6
+msgid "."
+msgstr ""
+
+#: dist/scripts/main.js:5
+msgid "BeforeChange."
+msgstr ""
+
+#: dist/scripts/main.js:5
+msgid "Resize"
+msgstr ""
+
+#: dist/scripts/main.js:5
+msgid "AfterChange"
+msgstr ""
+
+#: dist/scripts/main.js:5 dist/scripts/main.js:6
+msgid "BuildControls"
+msgstr ""
+
+#: dist/scripts/main.js:6
+msgid "BeforeChange"
+msgstr ""
+
+#: dist/scripts/main.js:6
+#, fuzzy
+msgid "UpdateStatus"
+msgstr "Päivitä"
+
+#: dist/scripts/main.js:6
+msgid "ImageHasSize."
+msgstr ""
+
+#: dist/scripts/main.js:6
+msgid "ElementParse."
+msgstr ""
+
+#~ msgid "Valu Digital Oy"
+#~ msgstr "Valu Digital Oy"
+
+#~ msgid "http://www.valu.fi"
+#~ msgstr "http://www.valu.fi"
+
+#~ msgid "Back to top"
+#~ msgstr "Takaisin sivun alkuun"
+
+#~ msgid "Customer groups"
+#~ msgstr "Kohderyhmät"
+
+#~ msgid "in Facebook"
+#~ msgstr "Facebookissa"
+
+#~ msgid "in Twitter"
+#~ msgstr "Twitterissä"
+
+#~ msgid "in LinkedIn"
+#~ msgstr "LinkedInissa"
+
+#~ msgid "in Instagram"
+#~ msgstr "Instagramissa"
+
+#~ msgid "in YouTube"
+#~ msgstr "Youtubessa"
+
+#~ msgid "City of Kantapohja"
+#~ msgstr "Kantapohjan kaupunki"
+
+#~ msgid "Go to events calendar"
+#~ msgstr "Siirry tapahtumakalenteriin"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Slides"
+#~ msgstr "Diat"
+
+#~ msgctxt "Slide Singular Name"
+#~ msgid "Slide"
+#~ msgstr "Dia"
+
+#~ msgid "Slides"
+#~ msgstr "Diat"
+
+#~ msgid "Slide"
+#~ msgstr "Dia"
+
+#~ msgid "Parent Item:"
+#~ msgstr "Ylemmän tason nimike:"
+
+#~ msgid "All Slides"
+#~ msgstr "Kaikki diat"
+
+#~ msgid "Add New Slide"
+#~ msgstr "Lisää uusi dia"
+
+#~ msgid "Add New"
+#~ msgstr "Lisää uusi"
+
+#~ msgid "New Slide"
+#~ msgstr "Uusi dia"
+
+#~ msgid "Edit Slide"
+#~ msgstr "Muokkaa diaa"
+
+#~ msgid "Update Slide"
+#~ msgstr "Päivitä dia"
+
+#~ msgid "View Slide"
+#~ msgstr "Näytä dia"
+
+#~ msgid "Search Slide"
+#~ msgstr "Etsi dioista"
+
+#~ msgid "Not found"
+#~ msgstr "Ei tuloksia"
+
+#~ msgid "Not found in Trash"
+#~ msgstr "Ei tuloksia roskakorissa"
+
+#~ msgid "City of Kuhmo"
+#~ msgstr "Kuhmon kaupunki"
+
+#~ msgid "Kuhmo theme"
+#~ msgstr "Kuhmo-teema"
+
+#~ msgid "Primary"
+#~ msgstr "Ensisijainen"
+
+#~ msgid "Front page banner"
+#~ msgstr "Etusivun banneri"
+
+#~ msgid "Lift background image"
+#~ msgstr "Blokkinostojen taustakuva"
+
+#~ msgid "Small lift background image (footer)"
+#~ msgstr "Pieni nostojen taustakuva (footer)"
+
+#~ msgid "Landing page image"
+#~ msgstr "Tarjotinsivun kuva"
+
+#~ msgid "Archive page image (references)"
+#~ msgstr "Arkistosivun kuva (referenssit)"
+
+#~ msgid "Person card image"
+#~ msgstr "Henkilökortin kuva"
+
+#~ msgid "Medium post thumbnail"
+#~ msgstr "Keskikokoinen artikkelikuva"
+
+#~ msgid "Large post thumbnail"
+#~ msgstr "Iso artikkelikuva (featured image)"
+
+#~ msgid "Testimonial lift"
+#~ msgstr "Kumppaninosto"
+
+#~ msgid "Image lift"
+#~ msgstr "Kuva- ja tekstikappalenosto"
+
+#~ msgid "Embed image lift"
+#~ msgstr "Kuva- ja tekstikappalenosto upotetulla kuvalla"
+
+#~ msgid "Full image lift"
+#~ msgstr "Täysleveä kuvanosto"
+
+#~ msgid "Big personcard lift"
+#~ msgstr "Iso henkilökuvanosto"
+
+#~ msgctxt "Taxonomy General Name"
+#~ msgid "Reference categories"
+#~ msgstr "Referenssikategoriat"
+
+#~ msgctxt "Taxonomy Singular Name"
+#~ msgid "Reference category"
+#~ msgstr "Referenssikategoria"
+
+#~ msgid "Reference categories"
+#~ msgstr "Referenssikategoriat"
+
+#~ msgid "All Items"
+#~ msgstr "Kaikki kohteet"
+
+#~ msgid "Parent Item"
+#~ msgstr "Ylemmän tason nimike"
+
+#~ msgid "New Item Name"
+#~ msgstr "Kohteen nimi"
+
+#~ msgid "Add New Item"
+#~ msgstr "Lisää uusi kohde"
+
+#~ msgid "Edit Item"
+#~ msgstr "Muokkaa"
+
+#~ msgid "View Item"
+#~ msgstr "Näytä"
+
+#~ msgid "Separate items with commas"
+#~ msgstr "Erota kohteet pilkulla"
+
+#~ msgid "Add or remove items"
+#~ msgstr "Lisää tai poista kohteita"
+
+#~ msgid "Popular Items"
+#~ msgstr "Suositut kohteet"
+
+#~ msgid "Search Items"
+#~ msgstr "Etsi kohdetta"
+
+#~ msgid "No items"
+#~ msgstr "Ei kohteita"
+
+#~ msgid "Items list"
+#~ msgstr "Kohteet"
+
+#~ msgid "Items list navigation"
+#~ msgstr "Kohteet navigaatio"
+
+#~ msgid "All event categories"
+#~ msgstr "Kaikki tapahtumakategoriat"
+
+#~ msgid "New event category name"
+#~ msgstr "Uusi tapahtumakategoria"
+
+#~ msgid "Add new event category"
+#~ msgstr "Lisää uusi tapahtumakategoria"
+
+#~ msgid "Separate event categories with commas"
+#~ msgstr "Erota tapahtumakategoriat pilkullla"
+
+#~ msgid "Add or remove event categories"
+#~ msgstr "Lisää tai poista tapahtumakategorioita"
+
+#~ msgid "Search event categories"
+#~ msgstr "Hae tapahtumakategorioita"
+
+#~ msgid "No event categories"
+#~ msgstr "Ei tapahtumakategorioita"
+
+#~ msgid "Event categories list"
+#~ msgstr "Tapahtumakategorioiden listaus"
+
+#~ msgid "Event categories list navigation"
+#~ msgstr "Tapahtumakategorioiden navigointi"

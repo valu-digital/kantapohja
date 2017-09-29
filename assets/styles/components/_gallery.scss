@@ -1,0 +1,39 @@
+
+.gallery {
+  margin-bottom: 20px;
+  @extend .clearfix;
+  img {
+	border: 0;
+  }
+  .gallery-item {
+	@media (max-width: $screen-xs-max) {
+	  width: 100%;
+	}
+  }
+  .wp-caption-text {
+	padding: 0 0 9px 0;
+  }
+  .thumbnail, .post-thumbnail-large {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	a {
+	  margin: 0;
+	  padding: 10px 20.7px !important;
+	  border: solid 1px #ddd !important;
+	  border-radius: 0;
+	}
+  }
+  .thumbnail {
+	display: block;
+	float: left;
+	margin-left: -1px;
+	padding-left: 1px;
+	margin-top: -1px;
+  }
+  .post-thumbnail-large {
+	display: block;
+	margin-left: -1px;
+  }
+}

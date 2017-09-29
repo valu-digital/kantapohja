@@ -1,0 +1,483 @@
+{
+    "key": "group_5637601143f9a",
+    "title": "Sivupalkki",
+    "fields": [
+        {
+            "key": "field_57e2772c47d5d",
+            "label": "Ajankohtaista-osion artikkelien määrä",
+            "name": "sidebar_recent_articles",
+            "type": "number",
+            "instructions": "0 = ei artikkeleja.\r\nMaksimimäärä 10 artikkelia.\r\nOletus 4 artikkelia.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 4,
+            "min": 0,
+            "max": 10,
+            "step": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_56376041bba47",
+            "label": "Sivupalkin nostosisältö",
+            "name": "sidebar_content",
+            "type": "flexible_content",
+            "instructions": "Valitse tämän sivun sivupalkissa näytettävät elementit täältä. Palvelualueeseen kuuluvat ajankohtaiset ja kuulutukset näytetään automaattisesti.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "button_label": "Lisää sivupalkin osio",
+            "min": "",
+            "max": "",
+            "layouts": [
+                {
+                    "key": "57eccfd2e36b7",
+                    "name": "banner_lift",
+                    "label": "Bannerinosto",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_57eccff2e36b8",
+                            "label": "Bannerin teksti",
+                            "name": "sidebar_banner_text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_57ecd002e36b9",
+                            "label": "Bannerin linkki",
+                            "name": "sidebar_banner_url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_57ecd010e36ba",
+                            "label": "Bannerin kuva",
+                            "name": "sidebar_banner_image",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "id",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "5639b08ac8bcf",
+                    "name": "sidebar_facebook_feed",
+                    "label": "Facebook",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5639b08ac8bd0",
+                            "label": "Facebook-sivun osoite",
+                            "name": "sidebar_facebook_feed_url",
+                            "type": "url",
+                            "instructions": "Anna Facebook-sivun osoite tähän kenttään.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "5639afe6c8bcb",
+                    "name": "sidebar_shortcut_links",
+                    "label": "Oikopolkulinkit",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_582c0c32532b4",
+                            "label": "Osion otsikko",
+                            "name": "sidebar_shortcut_links_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_57ecc2374451a",
+                            "label": "Lisää linkki",
+                            "name": "sidebar_shortcut_links_repeater",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "min": 0,
+                            "max": 10,
+                            "layout": "row",
+                            "button_label": "Lisää rivi",
+                            "collapsed": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_57ecc3584451d",
+                                    "label": "Sisäinen vai ulkoinen linkki?",
+                                    "name": "internal_or_external",
+                                    "type": "radio",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "layout": "horizontal",
+                                    "choices": {
+                                        "internal": "Sisäinen",
+                                        "external": "Ulkoinen"
+                                    },
+                                    "default_value": "",
+                                    "other_choice": 0,
+                                    "save_other_choice": 0,
+                                    "allow_null": 0,
+                                    "return_format": "value"
+                                },
+                                {
+                                    "key": "field_57ecc3d74451e",
+                                    "label": "Valitse sisältösivu",
+                                    "name": "sidebar_shortcut_links_page",
+                                    "type": "relationship",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_57ecc3584451d",
+                                                "operator": "==",
+                                                "value": "internal"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "post_type": [
+                                        "page"
+                                    ],
+                                    "taxonomy": [],
+                                    "min": "",
+                                    "max": 1,
+                                    "filters": [
+                                        "search",
+                                        "post_type",
+                                        "taxonomy"
+                                    ],
+                                    "elements": [
+                                        "featured_image"
+                                    ],
+                                    "return_format": "object"
+                                },
+                                {
+                                    "key": "field_57ecc26b4451b",
+                                    "label": "Linkin teksti",
+                                    "name": "sidebar_shortcut_links_link",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_57ecc3584451d",
+                                                "operator": "==",
+                                                "value": "external"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": ""
+                                },
+                                {
+                                    "key": "field_57ecc27a4451c",
+                                    "label": "Linkin kohde",
+                                    "name": "sidebar_shortcut_links_url",
+                                    "type": "url",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_57ecc3584451d",
+                                                "operator": "==",
+                                                "value": "external"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "58c8e9f081c85",
+                    "name": "sidebar_attachments",
+                    "label": "Liitteet",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_58c8ea0681c86",
+                            "label": "Liitteet",
+                            "name": "sidebar_attachments_content",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 1,
+                            "max": 1,
+                            "layout": "row",
+                            "button_label": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_58c8ed4281c87",
+                                    "label": "Liite",
+                                    "name": "attachment",
+                                    "type": "relationship",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "post_type": [
+                                        "attachment"
+                                    ],
+                                    "taxonomy": [],
+                                    "filters": [
+                                        "search"
+                                    ],
+                                    "elements": [
+                                        "featured_image"
+                                    ],
+                                    "min": "",
+                                    "max": 10,
+                                    "return_format": "object"
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "5639b856a1677",
+                    "name": "sidebar_lift",
+                    "label": "Vapaa nosto",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5639b875a1679",
+                            "label": "Noston otsikko",
+                            "name": "sidebar_lift_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_5639b856a1678",
+                            "label": "Noston sisältö",
+                            "name": "sidebar_lift_content",
+                            "type": "wysiwyg",
+                            "instructions": "Käytä vapaata nostoa muiden kuin valmiiksi luotujen nostolaatikoiden toteutukseen.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "tabs": "visual",
+                            "toolbar": "basic",
+                            "media_upload": 1,
+                            "default_value": "",
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "57e8da1073064",
+                    "name": "person_lifts_layout",
+                    "label": "Yhteystietokortit",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_57e90cffea9ff",
+                            "label": "Valitse henkilö \/ henkilöt",
+                            "name": "sidebar_select_contacts",
+                            "type": "relationship",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "valu_people"
+                            ],
+                            "taxonomy": [],
+                            "filters": [
+                                "search"
+                            ],
+                            "elements": [
+                                "featured_image"
+                            ],
+                            "min": "",
+                            "max": "",
+                            "return_format": "object"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            },
+            {
+                "param": "page_type",
+                "operator": "!=",
+                "value": "front_page"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "29"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 10,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1489563646
+}

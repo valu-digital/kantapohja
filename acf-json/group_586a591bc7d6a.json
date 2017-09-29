@@ -1,0 +1,69 @@
+{
+    "key": "group_586a591bc7d6a",
+    "title": "Ingressi",
+    "fields": [
+        {
+            "key": "field_586a59c5928ab",
+            "label": "Ingressi",
+            "name": "post_ingress",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "new_lines": "wpautop",
+            "maxlength": "",
+            "placeholder": "",
+            "rows": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            },
+            {
+                "param": "page_type",
+                "operator": "!=",
+                "value": "front_page"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "29"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "31"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "excerpt",
+        "discussion",
+        "comments"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1489500423
+}

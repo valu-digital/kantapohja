@@ -1,0 +1,90 @@
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin vertical-align-children($align: middle) {
+  &:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: $align;
+  }
+  & > * {
+	vertical-align: $align;
+  }
+}
+
+@mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+@mixin hyphens {
+  /* Warning: Needed for oldIE support, but words are broken up letter-by-letter */
+  -ms-word-break: break-word;
+
+  /* Non standard for webkit */
+  word-break: break-word;
+
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+@mixin box-shadow($shadow1, $shadow2:false) {
+  $params: $shadow1;
+  @if $shadow2 {
+	$params: $shadow1, $shadow2;
+  }
+  -webkit-box-shadow: $params;
+  -moz-box-shadow: $params;
+  box-shadow: $params;
+}
+
+@mixin fadebg {
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  -moz-transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  -webkit-transition: background-color 0.3s ease-out, color 0.3s ease-out;
+}
+
+@mixin drop-shadow() {
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(41, 41, 41, 0.4);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(41, 41, 41, 0.4);
+  box-shadow: 0px 4px 5px 0px rgba(41, 41, 41, 0.4);
+}
+
+@mixin smallliftbg() {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0066a0+0,0066a0+100&0+0,0.75+100 */
+  background: -moz-linear-gradient(top, rgba(0, 102, 160, 0) 0%, rgba(0, 102, 160, 0.75) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 102, 160, 0) 0%, rgba(0, 102, 160, 0.75) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 102, 160, 0) 0%, rgba(0, 102, 160, 0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000066a0', endColorstr='#bf0066a0', GradientType=0); /* IE6-9 */
+}
+
+@mixin separator($color) {
+  display: block;
+  @extend .clearfix;
+  content: " "; //3em dash
+  position: relative;
+  width: 46px;
+  height: 36px;
+  border-bottom: 2px solid $color;
+  margin: -10px 0 30px;
+}
+
+@mixin fontawesome() {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

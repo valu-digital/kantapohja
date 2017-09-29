@@ -1,0 +1,116 @@
+
+.page {
+  .main {
+    @include make-md-column($main-sm-columns);
+  }
+  .sidebar {
+    @include make-md-column($sidebar-sm-columns);
+  }
+}
+
+.sidebar-right {
+  .main {
+    @include make-md-column($main-sm-columns - $sidebar-sm-columns);
+  }
+  .sidebar {
+    @include make-md-column($sidebar-sm-columns);
+  }
+}
+
+.page-template-template-landing {
+  .main {
+    @include make-md-column($main-sm-columns - $sidebar-landing-mobile-columns);
+    @media (min-width: $screen-lg) {
+      @include make-md-column($main-sm-columns - $sidebar-landing-sm-columns);
+    }
+  }
+  .sidebar {
+    @include make-md-column($sidebar-landing-mobile-columns);
+    @media (min-width: $screen-lg) {
+      @include make-md-column($sidebar-landing-sm-columns);
+    }
+  }
+}
+
+.page-template-template-pagesarchive {
+  // Grid system
+  .main {
+    @include make-md-column($main-sm-columns - $sidebar-sm-columns);
+    @include make-md-column-push($sidebar-sm-columns);
+  }
+  .sidebar {
+    @include make-md-column($sidebar-sm-columns);
+    @include make-md-column-pull($main-sm-columns - $sidebar-sm-columns);
+  }
+}
+
+.sidebar-left {
+  // Grid system
+  .main {
+    @include make-md-column($main-sm-columns - $sidebar-left-columns);
+    @include make-md-column-push($sidebar-left-columns);
+  }
+  .sidebar-secondary {
+    @include make-md-column($sidebar-left-columns);
+    @include make-md-column-pull($main-sm-columns - $sidebar-left-columns);
+  }
+  .sidebar-right {
+    display: none;
+  }
+}
+
+.sidebar-both {
+  // Grid system
+  .main {
+    @include make-sm-column(9);
+    @include make-sm-column-push(3);
+    @media (min-width: $screen-md) {
+      @include make-md-column(7);
+      @include make-md-column-push(2);
+    }
+  }
+  .sidebar {
+    @include make-sm-column(12);
+    @media (min-width: $screen-md) {
+      @include make-md-column(3);
+    }
+  }
+  .sidebar-secondary {
+    @include make-sm-column(3);
+    @include make-sm-column-pull(9);
+    @media (min-width: $screen-md) {
+      @include make-md-column(2);
+      @include make-md-column-pull(7);
+    }
+  }
+}
+
+.archive, .post-type-archive, .blog, .page-template-template-dynasty-meetings {
+  // Grid system
+  .main {
+    @include make-sm-column(9);
+    @include make-sm-column-push(3);
+    /*
+    @media (min-width: $screen-md) {
+      @include make-md-column(10);
+      @include make-md-column-push(2);
+    }*/
+  }
+  .sidebar-secondary {
+    @include make-sm-column(3);
+    @include make-sm-column-pull(9);
+    /*
+    @media (min-width: $screen-md) {
+      @include make-md-column(2);
+      @include make-md-column-pull(10);
+    }*/
+  }
+}
+
+.blog.sidebar-left, .archive.sidebar-left, .page-template-template-dynasty-meetings.sidebar-left {
+  @media (min-width: $screen-sm) {
+    .sidebar-archive, .sidebar-secondary {
+      float: right;
+    }
+  }
+}

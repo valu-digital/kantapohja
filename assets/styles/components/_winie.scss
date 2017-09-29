@@ -1,0 +1,29 @@
+/** Windows IE overrides **/
+
+.win-ie {
+  .desktop-header,
+  .mobile-header {
+	header.banner {
+	  .upper-header {
+		.header-col {
+		  display: flex;
+		  justify-content: flex-start;
+		}
+	  }
+	}
+  }
+  .image-lift .image-lift-content .image-row {
+	position: relative;
+  }
+  .image-lift .image-text-col {
+	display: block;
+	height: 509px;
+	.text {
+	  @include vertical-align;
+	}
+  }
+}
+
+.shadow-box {
+  border: 1px solid $lg1;
+}

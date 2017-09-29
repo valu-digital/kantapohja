@@ -1,0 +1,55 @@
+
+.crisis-container {
+  background-color: rgba(251, 46, 46, 0.84);
+  height: auto;
+  z-index: 380;
+  overflow-x: hidden;
+  position: absolute;
+  width: 100%;
+  margin-top: -22px;
+  @media (min-width: $screen-sm) {
+	height: 104px;
+  }
+  @media (min-width: $screen-md) {
+	position: relative;
+	margin-top: 3px;
+  }
+  .crisis {
+	a {
+	  height: 70px;
+	  @media (min-width: $screen-sm) {
+		height: 104px;
+	  }
+	  display: block;
+	  position: relative;
+	  .crisis_wrap {
+		color: $f;
+		font-size: 0.863em;
+		padding: 10px 0 10px 15px;
+		@media (min-width: $screen-sm) {
+		  font-size: 1.063em;
+		  padding: 0 0 0 30px;
+		}
+		i.fa {
+		  font-size: 24px;
+		  padding-right: 20px;
+		  padding-left: 15px;
+		  float: left;
+		  @media (min-width: $screen-sm) {
+			padding-left: 0;
+			float: none;
+		  }
+		}
+	  }
+	}
+  }
+  .closecrisiswrap {
+	height: 100%;
+	.closecrisis {
+	  height: 70px;
+	  @media (min-width: $screen-sm) {
+		height: 104px;
+	  }
+	}
+  }
+}

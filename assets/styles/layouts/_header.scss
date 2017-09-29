@@ -1,0 +1,215 @@
+.desktop-header,
+.mobile-header {
+	header.banner {
+		background-color: $f;
+		border-bottom: 1px solid $lg1;
+		.logo-text {
+			display: inline;
+			text-transform: uppercase;
+			color: $brand-primary;
+			font-size: 15px;
+			font-weight: 700;
+			letter-spacing: 3px;
+			padding-left: 18px;
+			vertical-align: middle;
+			@media (min-width: $screen-sm) {
+				font-size: 24px;
+			}
+		}
+		&.non-sticky {
+			height: $headerh;
+			position: absolute;
+			width: 100%;
+			z-index: 900;
+		}
+		.logo {
+			padding-left: 15px;
+			path.st0 {
+				fill: $brand-primary;
+			}
+			path.st1 {
+				stroke: $f;
+				fill: $f;
+			}
+		}
+		.upper-header {
+			border-bottom: 1px solid $lg1;
+			height: 90px;
+			display: block;
+			.header-col {
+				display: -webkit-flex;
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+				margin: auto;
+				width: 100%;
+				padding: 0;
+				height: 90px;
+				.header-item {
+					padding: 0 15px;
+					&.logo-wrapper {
+						margin-right: auto;
+						padding-left: 0;
+						a {
+							display: block;
+							&:hover, &:active, &:focus {
+								text-decoration: none;
+							}
+						}
+					}
+					&.search-wrap {
+						padding-right: 0;
+						padding-left: 30px;
+						border-left: 1px dashed #d2d2d2;
+					}
+				}
+			}
+			.languages-container {
+				text-transform: uppercase;
+				border-right: 1px dashed #d2d2d2;
+				@media (min-width: $screen-md) {
+					padding: 0 26px !important;
+				}
+				ul.lang-selector {
+					margin: 0;
+					text-align: center;
+					padding: 0;
+					li {
+						display: none;
+						padding: 0;
+						margin: 0 4px;
+						background-color: transparent;
+						width: 30px;
+						@media (min-width: $screen-md) {
+							padding: 0;
+							display: inline-block;
+							background-color: transparent;
+						}
+						a {
+							color: #222222;
+							font-size: 14px;
+						}
+						&.current-lang {
+							display: block;
+							background-color: $brand-primary;
+							@media (min-width: $screen-md) {
+								display: inline-block;
+							}
+							a {
+								color: $f;
+								line-height: 35px;
+								margin: 0;
+								border-radius: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+		&.sticky {
+			position: fixed;
+			height: 56px;
+			width: 100%;
+			z-index: 900;
+			.upper-header {
+				display: none;
+			}
+		}
+	}
+}
+
+.mobile-header {
+	header.banner {
+		transition: 0.2s ease;
+		transform: translateY(-85px);
+		border-bottom: 1px solid $lg1;
+		&.non-sticky {
+			height: $sticky-headerh;
+			position: fixed;
+		}
+		&.sticky {
+			display: none;
+		}
+		.header-top {
+			position: relative;
+			height: 100%;
+		}
+		.sitename-wrap {
+			padding: 7px 15px;
+			.logo {
+				padding: 0;
+				height: 41px;
+			}
+			a {
+				display: block;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+		.search-wrapper {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: $sticky-headerh;
+			padding-right: 15px;
+			.glyphicon-search {
+				color: $brand-primary;
+				padding-bottom: 3px;
+			}
+			.search-form-collapse {
+				position: absolute;
+				z-index: 999;
+				right: 0;
+				background-color: $brand-primary;
+				color: $f;
+				width: 300px;
+				top: 57px;
+				.search-form-in {
+					padding: 5px;
+					.search-field {
+						border: 0 none;
+						border-radius: 0;
+						box-shadow: none;
+					}
+					.input-group-btn {
+						width: 78px;
+						.btn-search {
+							width: 100%;
+						}
+						.search-submit {
+							background-color: transparent;
+							width: 100%;
+							border: 0;
+							padding-left: 0;
+							.glyphicon-search {
+								padding: 0;
+								position: relative;
+								top: 5px;
+								transform: none;
+								color: $f;
+							}
+						}
+					}
+				}
+			}
+		}
+		.mobile-nav-wrapper {
+			height: $sticky-headerh;
+		}
+		.header-container-mobile {
+			padding-right: 0;
+			padding-left: 0;
+		}
+		.mega-menu {
+			padding: 15px;
+		}
+	}
+	header.visible,
+	header.ontop {
+		transform: translateY(0);
+	}
+	.mobilenavopen {
+		position: relative !important;
+	}
+}
