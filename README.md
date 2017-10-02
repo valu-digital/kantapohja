@@ -1,16 +1,16 @@
-#Kantapohja
+# Kantapohja
 
 Kantapohja on demokunta, jolla on moderni kuntasivusto [www.kantapohja.fi](https://www.kantapohja.fi)
 
 Tässä repossa on julkaistu Kantapohjan kunnan WordPress-teema, joka sopii pienen tai keskisuuren kunnan viestinnällisen verkkosivuston toteuttamiseen. Teeman lisäksi alle on eritelty [www.kantapohja.fi](https://www.kantapohja.fi) -sivustolla käytetyt lisäosat.
 
-##Asennus
+## Asennus
 
 - Kloonaa tämä repo tai lataa teeman tiedostot zip-tiedostona.
 - Ota käyttöön teeman vaatimat lisäosat
 - Aktivoi teema WordPressin hallinnasta
 
-###Vaaditut lisäosat
+### Vaaditut lisäosat
 
 **Advanced Custom Fields Pro**
  - Lisäkentät
@@ -27,7 +27,7 @@ Tässä repossa on julkaistu Kantapohjan kunnan WordPress-teema, joka sopii pien
  - Maksullinen
  - https://polylang.pro/
  
-###Muut lisäosat
+### Muut lisäosat
 
 Vaadittujen lisäosien lisäksi toteutuksessa on käytetty seuraavia lisäosia, jotka täydentävät sivuston toiminnallisuuksia:
 
