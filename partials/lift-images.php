@@ -8,7 +8,7 @@
 					$lift_url         = get_sub_field( 'lift_url' );
 					$lift_button_name = get_sub_field( 'lift_button_name' );
 					$lift_image       = get_sub_field( 'lift_image' );
-					$lift_image_src   = wp_get_attachment_image_src( $lift_image, 'frontpage-imagelift' );
+					$lift_image_src   = wp_get_attachment_image_src( $lift_image, 'post-thumbnail-large' );
 					?>
 					<a href="<?php echo esc_url( $lift_url ); ?>" target="_blank">
 						<div class="image-lifts-article col-xs-12 col-sm-6 col-md-4">
